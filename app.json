@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/core/student/index/index",
+    "pages/core/student/my-growth/my-growth",
+    "pages/core/student/timetable/timetable",
+    "pages/lecture/lecture",
+    "pages/lecture/lecture-detail/lecture-detail",
+    "pages/notice/notice"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#32CD32",
+    "navigationBarTitleText": "校园服务",
+    "navigationBarTextStyle":"white"
+  }
+}

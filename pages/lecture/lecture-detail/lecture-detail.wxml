@@ -1,0 +1,2 @@
+<!--pages/lecture/lecture-detail/lecture-detail.wxml-->
+<view>{{item.title}}</view>

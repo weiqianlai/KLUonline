@@ -1,0 +1,15 @@
+<!--pages/notice/notice.wxml-->
+<scroll-view class="page_list" scroll-y="true" bindscrolltolower="loadMore" bindscrolltoupper="refresh">
+
+  <view wx:for="{{newstList}}">
+
+    <view data-news-id="{{item.newsId}}" class="item"  catchtap=''>
+      <view class="news-item">
+        <view class="title">{{item.date}}</view>
+        <text class="time">{{item.title}}</text>
+        <view class="desc">{{item.content}}</view>
+
+      </view>
+    </view>
+  </view>
+</scroll-view>
